@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+
+  input {
+    height: 3rem; // 48px
+    font-size: 1rem;
+    border-radius: 0.25rem; // 4px
+    border: none;
+
+    padding: 0 1rem; // 16px
+    margin-top: 0.5rem; // 8px       
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+    &::placeholder {
+      color: var(--placeholder-color);
+    }
+  }
+}

@@ -1,9 +1,9 @@
 import './styles.scss';
 
-export function Shape() {
+export function Shape({ children }) {
   return (
     <div className="shape">
-      <p>Oi</p>
+      {children}
     </div>
   );
 }

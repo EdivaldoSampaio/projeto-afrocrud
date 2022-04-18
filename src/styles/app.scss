@@ -12,3 +12,16 @@ header {
     }
   }
 }
+
+.shape {
+  h2 { 
+    font-size: 1.5rem; // 24px
+    border-bottom: 1px solid var(--border-color);
+
+    padding-bottom: 1rem; // 16px
+  }
+
+  form {
+    margin: 1.5rem 0; // 24px 0
+  }
+}
