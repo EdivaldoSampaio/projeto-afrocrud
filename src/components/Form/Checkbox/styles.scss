@@ -1,0 +1,37 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  & + .checkbox {
+    margin-left: 1.5rem; // 24px
+  }
+
+  input[type="checkbox"] {
+    display: none;
+
+    & + span {
+      width: 1.25rem; // 20px
+      height: 1.25rem; // 20px
+      margin-right: 0.5rem; // 8px
+
+      border: 0.15rem solid var(--detail-color); // 2.4px
+      border-radius: 0.15rem; // 2.4px
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: 0.3s ease;
+
+      svg {
+        color: var(--primary-color);
+      }
+    }
+
+    &:checked + span {
+      border: none;
+      background-color: var(--button-color);
+    }
+  }
+}

@@ -3,6 +3,10 @@
   align-items: center;
   cursor: pointer;
 
+  & + .radio-button {
+    margin-left: 1.5rem; // 24px
+  }
+
   input[type="radio"] {
     display: none;
 
@@ -29,7 +33,7 @@
 
         border-radius: 50%;
 
-        opacity: 0;      
+        opacity: 0;
         transform: scale(0, 0);
         transition: 0.3s ease;
       }

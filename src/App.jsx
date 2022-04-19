@@ -4,6 +4,8 @@ import './styles/app.scss';
 import { Shape } from './components/Shape';
 import { Input } from './components/Form/Input';
 import { RadioButton } from './components/Form/RadioButton';
+import { FormArea } from './components/Form/FormArea';
+import { Checkbox } from './components/Form/Checkbox';
 
 export function App() {
   return (
@@ -17,14 +19,23 @@ export function App() {
 
         <form>
           <Input label="Nome" placeholder="Preencha o nome do funcionário" />
+        
+          <div className="form-areas">
+            <FormArea label="Sexo">
+              <RadioButton name="gender" title="Masculino"/>
+              <RadioButton name="gender" title="Feminino"/>  
+            </FormArea>
+
+            <FormArea label="Status">
+              <Checkbox title="Ativo"/>
+            </FormArea>
+          </div>
+
           <Input label="CPF" placeholder="Preencha o CPF do funcionário" />
           <Input label="Telefone" placeholder="Preencha o telefone do funcionário" />
           <Input label="Salário" placeholder="Preencha o salário do funcionário"/>
-
-          <RadioButton />
-          
         </form>
       </Shape>
     </>
-  )
+  );
 }

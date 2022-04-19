@@ -1,11 +1,11 @@
 import './styles.scss';
 
-export function RadioButton() {
+export function RadioButton({ title, name }) {
   return (
     <label className="radio-button">
-      <input type="radio" />
+      <input name={name} type="radio" />
       <span />
-      Masculino
+      {title}
     </label>
   );
 }
