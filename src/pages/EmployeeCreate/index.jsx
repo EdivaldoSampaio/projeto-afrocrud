@@ -21,7 +21,7 @@ import { phoneNumberMask, cpfMask, currencyMask } from '../../utils/masks';
 export function EmployeeCreate() {
 
   const navigate =useNavigate();
-  const location = useLocation();
+
   const { state: employee } = useLocation();
 
     const { register, handleSubmit, formState: { errors} } = useForm({defaultValues: employee});
