@@ -1,0 +1,28 @@
+.select {
+
+    display: flex;
+    flex-direction: column;
+
+
+    select {
+
+        height: 3rem;//48px
+        background-color: var(--background-color);
+        color: var(--text-color);
+
+        border: nome;
+        border-radius: 0.25rem; //4xp
+
+        padding: 0 1rem; // 0 16px
+        margin-top: 0.5rem; // 8px
+
+        font-size: 1rem; // 16px
+
+        &:focus {
+            outline: 2px solid var(--button-color);
+          }
+
+    }
+
+
+}

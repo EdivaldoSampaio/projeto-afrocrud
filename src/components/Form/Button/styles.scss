@@ -1,0 +1,22 @@
+
+
+    .button {
+        height: 3rem; //48px
+        margin-left: auto;
+        padding: 0 1rem; //0 16px
+  
+        border-radius: 0.5rem; // 8px
+        transition: 0.3s;
+
+        display: flex;
+        align-items: center;
+  
+        &:hover {
+          filter:brightness(125%)
+        }
+
+        svg {
+            margin-left: 0.5rem; //8px
+        }
+  
+      }

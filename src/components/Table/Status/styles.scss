@@ -1,0 +1,23 @@
+.status-active, .status-inactive {
+
+    width: 5.75rem; //92px
+    height: 2rem; //32px
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.25rem;
+    background-color: var(--success-color);
+
+    font-size: 0.75rem; //12px
+    font-family: 'Poppins';
+}
+
+.status-active {
+
+    background-color: var(--success-color);
+}
+.status-inactive {
+    background-color: var(--fail-color);
+}

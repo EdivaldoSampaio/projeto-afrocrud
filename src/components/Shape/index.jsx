@@ -1,8 +1,8 @@
 import './styles.scss';
 
-export function Shape({ children }) {
+export function Shape({ children, className ='' }) {
   return (
-    <div className="shape">
+    <div className={`shape ${className}`}>
       {children}
     </div>
   );

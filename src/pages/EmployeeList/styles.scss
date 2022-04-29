@@ -1,0 +1,59 @@
+.shape-list {
+
+    margin-bottom: 2rem; //32px;
+
+    .title-area{ 
+
+        padding-bottom: 1rem; // 20px
+        border-bottom: 1px solid var(--border-color);
+
+        display: flex;
+        align-items: center;
+
+        button {
+            height: 2.5rem; //40px;
+        }
+       }
+
+       table {
+           width: 100%;
+           margin-top: 2rem; //32px
+           border-collapse: collapse;
+
+            thead {
+
+                font-family: Poppins;
+                color: var(--title-color);
+                text-transform: uppercase;
+                text-align: left;
+            }
+
+            tbody {
+                tr {
+                    border-bottom: 1xp solid var (--border-color);
+
+                    cursor: pointer;
+                    &:hover {
+                        background-color: var(--background-color);
+                    }
+                    
+                    td {
+
+                        padding: 0.5rem 0; //8px
+                         
+                        > p {
+                                margin-bottom: 0.25rem;
+                        }
+
+                        span {
+
+                            font-size:  0.75rem;
+                            color: var(--detail-color);
+                            
+                        }
+
+                    }
+                }
+            }
+       }
+}

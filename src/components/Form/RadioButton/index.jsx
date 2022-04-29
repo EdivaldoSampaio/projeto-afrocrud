@@ -1,11 +1,16 @@
+
+import React from 'react';
+
 import './styles.scss';
 
-export function RadioButton({ title, name }) {
+ function RadioButtonBase({ title, name, ...rest }, ref) {
   return (
     <label className="radio-button">
-      <input name={name} type="radio" />
+      <input name={name} type="radio" ref={ref} {...rest}/>
       <span />
       {title}
     </label>
   );
 }
+
+export const RadioButton = React.forwardRef(RadioButtonBase)

@@ -1,0 +1,64 @@
+{
+  "employees": [
+    {
+      "name": "Monkey D. Luffy",
+      "gender": "male",
+      "status": true,
+      "cpf": "000.001.002-33",
+      "phoneNumber": "(21) 99998-8888",
+      "salary": "R$ 100000,00",
+      "department": "Suporte",
+      "id": 2
+    },
+    {
+      "name": "Portgas D. Ace",
+      "gender": "male",
+      "status": true,
+      "cpf": "111.222.333-44",
+      "phoneNumber": "(22) 33335-5555",
+      "salary": "R$ 100000,00",
+      "department": "Desenvolvimento",
+      "id": 3
+    },
+    {
+      "name": "Roronoa Zoro",
+      "gender": "male",
+      "status": true,
+      "cpf": "222.333.444-55",
+      "phoneNumber": "(33) 55556-6666",
+      "salary": "R$ 100000,00",
+      "department": "Marketing",
+      "id": 4
+    },
+    {
+      "name": "Vinsmoke Sanji",
+      "gender": "male",
+      "status": true,
+      "cpf": "444.555.666-20",
+      "phoneNumber": "(33) 22225-5555",
+      "salary": "R$ 200000,00",
+      "department": "Suporte",
+      "id": 5
+    },
+    {
+      "name": "Nico Robin",
+      "gender": "female",
+      "status": true,
+      "cpf": "666.777.222-55",
+      "phoneNumber": "(21) 96517-7777",
+      "salary": "R$ 50000,00",
+      "department": "Financeiro",
+      "id": 6
+    },
+    {
+      "name": "Nami",
+      "gender": "female",
+      "status": true,
+      "cpf": "102.108.852-30",
+      "phoneNumber": "(21) 96589-6523",
+      "salary": "R$ 600000,00",
+      "department": "Financeiro",
+      "id": 7
+    }
+  ]
+}

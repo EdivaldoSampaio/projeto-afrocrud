@@ -18,5 +18,23 @@
     &::placeholder {
       color: var(--placeholder-color);
     }
+
+    &:focus {
+      outline: 2px solid var(--button-color);
+    }
+
+    &.error {
+      outline: 2px solid var(--fail-color);
+    }
+
   }
+
+    span {
+      font-size: 0.75rem; //12px
+      color: var(--fail-color);
+
+      margin-top: 0.25rem; //4px
+
+    }
+
 }
